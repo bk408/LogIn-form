@@ -18,13 +18,13 @@ body {
 
 .parent {
   background-color: whitesmoke;
-  width: 300px;
-  height: auto;
+  width: 800px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: linear-gradient(to bottom, green 40px, whitesmoke 40px);
+  background: linear-gradient(to right, green 40px, whitesmoke 40px);
   border: none;
   border-radius: 5px;
 }
