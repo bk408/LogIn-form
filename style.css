@@ -6,7 +6,12 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(67, 65, 65);
+  background: linear-gradient(
+    to left top,
+    rgb(42, 43, 42),
+    rgba(52, 46, 46, 0.9)
+  );
+  background-attachment: fixed;
 }
 
 .container {
@@ -23,7 +28,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 7px;
-  background: linear-gradient(to left, rgb(73, 90, 79) 4px, transparent 80px),
+  background: linear-gradient(to left, rgb(73, 90, 79), transparent),
     linear-gradient(to right, rgb(73, 90, 79) 40px, whitesmoke 40px);
   background-size: 100% 100%;
   background-repeat: no-repeat;
